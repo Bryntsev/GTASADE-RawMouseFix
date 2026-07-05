@@ -46,6 +46,12 @@ Close the game and delete these files from `Gameface\Binaries\Win64\scripts`:
 
 The mod targets mouse input, not every high-FPS issue in the remaster.
 
+The author tested the current build with the game running in DX12 mode. If your game does not use DX12 by default, or if the mod does not seem to work correctly, try adding this Steam launch option:
+
+```text
+-dx12
+```
+
 Recommended in-game FPS cap:
 
 - `60 FPS`, or
