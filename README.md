@@ -77,6 +77,16 @@ It uses:
 
 That combination can trigger antivirus false positives even when the build is clean. Download only from the official GitHub release page, compare SHA256 hashes, and check the release archive on VirusTotal if you want extra confidence.
 
+VirusTotal results for the current public test build:
+
+- Release ZIP: `1/66`, MaxSecure detects `Trojan.Malware.300983.susgen`.
+- ASI plugin: `1/70`, Microsoft detects `PUA:Win32/Puwaders.C!ml`.
+- Raw Input companion EXE: `1/70`, MaxSecure detects `Trojan.Malware.300983.susgen`.
+
+These detections appear to be generic/heuristic false positives caused by the modding technique: unsigned ASI plugin, game process hooks, companion executable, Raw Input, and shared memory. The source code is public so users can inspect and build it themselves.
+
+If your antivirus blocks the mod, you may need to restore the blocked file and add an exclusion for the mod files or for the game `scripts` folder. Only do this if you downloaded the files from the official GitHub release and the SHA256 hashes match.
+
 Do not use this mod in multiplayer or anti-cheat-protected environments.
 
 ## Building

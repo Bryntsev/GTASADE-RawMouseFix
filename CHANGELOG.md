@@ -10,3 +10,7 @@ Initial public test release candidate.
 - Tested by the author with a 1000 Hz mouse polling rate.
 - Known issue: menu item highlighting can behave oddly, but menu actions remain usable in testing.
 - Known limitation: the in-game FPS cap is not reliably changed by the mod.
+- VirusTotal at release time:
+  - Release ZIP: `1/66`, MaxSecure `Trojan.Malware.300983.susgen`.
+  - ASI plugin: `1/70`, Microsoft `PUA:Win32/Puwaders.C!ml`.
+  - Raw Input companion EXE: `1/70`, MaxSecure `Trojan.Malware.300983.susgen`.
